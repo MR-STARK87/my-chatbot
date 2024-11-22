@@ -5,7 +5,7 @@ import google.generativeai as genai
 health_tips = ["Get moving","Eat more whole foods (and less processed food)","if you drink alcohol, do so responsibly","Make preventive care a priority","If you smoke, try to quit","Make sleep a priority","Stay hydrated"]
 
 #css loader
-with open('static/styles.css', "r") as f:
+with open('styles.css', "r") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
