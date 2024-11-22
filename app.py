@@ -20,7 +20,7 @@ if "conversation" not in st.session_state:
 
 # Display a header
 
-st.image("static/logolarge.jpg",use_container_width=False)
+st.image("logolarge.jpg",use_container_width=False)
 
 # Capturing the user input
 user_input = st.chat_input("Enter your message here...")
