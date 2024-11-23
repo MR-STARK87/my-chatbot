@@ -39,7 +39,7 @@ if user_input:
 # Display messages in an alternate fashion (timeline)
 for message in st.session_state.conversation:
     with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+        st.success(message["content"])
 
 st.sidebar.title("Health Tips")
 st.sidebar.subheader(random.choice(health_tips))
